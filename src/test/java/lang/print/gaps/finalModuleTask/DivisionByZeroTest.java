@@ -20,7 +20,6 @@ class DivisionByZeroTest extends BaseIOTest {
     @Test
     void mainDividesByZeroNoException() {
         DivisionByZero.main(null);
-
         assertEquals("Infinity\n", updateLineSpliterators(outContent.toString()));
     }
 
